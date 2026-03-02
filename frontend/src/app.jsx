@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const API_URL = 'http://localhost:3001';
-const WS_URL = 'ws://localhost:3001';
+const API_URL = 'https://collaborative-task-board-95m9.onrender.com';
+const WS_URL = 'wss://collaborative-task-board-95m9.onrender.com';
 
 function App() {
   const [tasks, setTasks] = useState([]);
